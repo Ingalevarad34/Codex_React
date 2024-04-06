@@ -1,0 +1,28 @@
+.couses-title1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.couses-title2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-block{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    justify-content: space-between;
+}
