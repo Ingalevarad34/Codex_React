@@ -1,0 +1,74 @@
+#Home {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), #f46d4b), url(../../Assets/homebg.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    margin-right: 124px !important;
+    margin: 0;
+}
+
+li {
+    margin-right: 38px;
+    margin-top: 47px;
+    list-style-type: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    left: 10%;
+    position: absolute;
+    top: 4%;
+    width: 140px;
+}
+main{
+    text-align: center;
+}
+.home_text {
+    color: #fff;
+    padding-top: 180px;
+}
+
+.home_text h1{
+    font-family: "Kaushan Script", cursive;
+    font-size: 130px;
+    margin: 0;
+}
+
+.home_text p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Poppins, sans-serif;
+}
+
+.buttons{
+    margin: 70px auto 0;
+}
+
+.buttons button{
+    border: .5px solid #fff;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 16px 0;
+    position: relative;
+    text-decoration: none;
+    transition: color .5s;
+    width: 150px;
+    background-color: transparent;
+}
